@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+* {
+  margin: 0;
+  padding: center;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Permanent Marker', Helvetica, Arial, sans-serif;
+  background: #e7f2f8;
+}
+.header {
+  width: 100vw;
+  height: 15vh;
+  border-radius: 1rem;
+  height: 15vh;
+  flex-shrink: 0;
+  background-color: black;
+  margin: auto;
+}
+
+.header .div-header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  top: 30%;
+  left: 30%;
+  transform: translateY(-10%);
+}
+
+.header-heading {
+  font-size: 3rem;
+  color: #eee;
+}
+.container {
+  width: 100vw;
+  height: 80vh;
+  margin: auto;
+  position: relative;
+}
+
+.section-one {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-top: 1rem;
+  height: 60%;
+}
+
+.div-textarea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem 1rem;
+}
+
+#txt-input {
+  width: 80%;
+  height: 20vh;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 1em;
+  font-size: 1.5rem;
+  font-family: 'Permanent Marker', Helvetica, Arial, sans-serif;
+  text-align: left;
+  top: 20%;
+  left: 20%;
+  border: 3px solid #05445e;
+}
+
+#btn-translate {
+  border-radius: 0.5rem;
+  font-weight: 700;
+  color: black;
+  padding: 1rem 2.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  background-color: none;
+  box-shadow: 5px 8px 8px rgba(110, 8, 8, 0.2);
+  display: block;
+}
+
+.output-msg {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#output {
+  border: 3px solid #05445e;
+  border-radius: 1rem;
+  width: 80%;
+  height: 20vh;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  margin: auto;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+/*footer*/
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.footer {
+  height: 15vh;
+  flex-shrink: 0;
+  background-color: black;
+  text-align: center;
+  padding: 1.5rem;
+  color: #eee;
+  font-size: 1rem;
+  border-radius: 1rem;
+}
+
+.footer a {
+  font-size: 1.5rem;
+  padding: 0 0.7rem;
+  color: #eee;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+.footer .footer-header {
+  font-size: 1.5rem;
+}
